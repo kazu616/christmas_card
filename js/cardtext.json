@@ -1,0 +1,32 @@
+{"text":[
+        {
+        "name":"",
+        "message":"Wishing you a Christmas filled with love, joy, and warmth. You mean the world to me, and I'm grateful to share this special season with you.",
+        "signed":""
+        },
+        {
+        "name":"",
+        "message":"What do you want?",
+        "signed":"S"
+        },
+        {
+        "name":"To [default],",
+        "string":"",
+        "signed":"From, Santa"
+        },
+        {
+        "name":"[default],",
+        "string":"Merry Christmas!",
+        "signed":"Love from, Santa Claus"
+        },
+        {
+        "name":"Dear [default],",
+        "string":"Merry Christmas and a Happy New Year!",
+        "signed":"Lots of love, Meow Meow Christmas"
+        },
+        {
+        "name":"To my dearest [default],",
+        "string":"*insert story here*",
+        "signed":"Yours, Honey 'Meow Meow' Christmas"
+        }
+    ]}
