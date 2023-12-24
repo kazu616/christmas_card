@@ -89,7 +89,7 @@ $(document).ready(function() {
             { "greeting": "", "message": "Wishing you a Christmas filled with love, joy, and warmth. You mean the world to me, and I'm grateful to share this special season with you.", "signed": "Meow Meow" },
             { "greeting": "", "message": "To my little bundle of joy, may your Christmas sparkle with love and laughter. You bring so much warmth to my heart. Merry Christmas, my dear hedgehog !!", "signed": "Meow Meow" },
             { "greeting": "name,", "message": "Love you", "signed": "From, Santa" },
-            { "greeting": "To name,", "message": "Merry Christmas!", "signed": "Love from, Santa Claus" },
+            { "greeting": "To name,", "message": "Merry Christmas!", "signed": "Love from, Santa Meow Meow" },
             { "greeting": "Dear name,","message": "Merry Christmas and a Happy New Year!", "signed": "Lot\'s of love, meow meow Christmas" },
             { "greeting": "To my dearest name,", "message": "Merry Christmas, the world's cutest little hedgehog! May your days be merry, your heart light and your holiday filled with everything that brings you happiness with satan meow meow by your side.", "signed": "Yours, Honey 'Meow Meow' Christmas" }
             ];
@@ -100,21 +100,13 @@ $(document).ready(function() {
             var sound5 = document.getElementById('sound5');
             var audioArray = [treeSound, snowmanSound, sound3, sound4, sound5];
            
-            // Pause and reset all audio elements
-            audioArray.forEach(function(audio) {
-                audio.pause();
-                audio.currentTime = 0;
-            });
-
-            // Play the new audio
-            audioArray[likeness].play();
 
             var greeting = text[likeness].greeting.replace(/name/g, name);
             var message = text[likeness].message.replace(/name/g, name);
             var signed = text[likeness].signed;
             
             if (text[likeness].message.length > 50){
-                var messageFontSize = '15px';
+                var messageFontSize = '20px';
             }else if (text[likeness].message.length > 35){
                 var messageFontSize = '45px';
             }else if (text[likeness].message.length > 8){
@@ -134,6 +126,14 @@ $(document).ready(function() {
             $('html, body').animate({scrollTop: 700}, animationSpeed); // Scroll to 750px from the top  
             setTimeout(function() { $('.card').addClass('opencard'); }, 1200);              
             setTimeout(function() { $('.card').addClass('opencard-back'); $('.card section').hide(); }, 1600); // 'Open' the card   
+            // Pause and reset all audio elements
+            audioArray.forEach(function(audio) {
+                audio.pause();
+                audio.currentTime = 0;
+            });
+
+            // Play the new audio
+            audioArray[likeness].play();
             }
             
             event.preventDefault(); // Stop button's normal behaviour
