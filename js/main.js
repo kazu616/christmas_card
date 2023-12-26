@@ -98,7 +98,8 @@ $(document).ready(function() {
             var sound3 = document.getElementById('sound3');
             var sound4 = document.getElementById('sound4');
             var sound5 = document.getElementById('sound5');
-            var audioArray = [treeSound, snowmanSound, sound3, sound4, sound5];
+            var sound6 = document.getElementById('sound6');
+            var audioArray = [treeSound, snowmanSound, sound3, sound4, sound5,sound6];
            
 
             var greeting = text[likeness].greeting.replace(/name/g, name);
