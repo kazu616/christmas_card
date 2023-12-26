@@ -88,8 +88,8 @@ $(document).ready(function() {
             var text = [ 
             { "greeting": "", "message": "Wishing you a Christmas filled with love, joy, and warmth. You mean the world to me, and I'm grateful to share this special season with you.", "signed": "Meow Meow" },
             { "greeting": "", "message": "To my little bundle of joy, may your Christmas sparkle with love and laughter. You bring so much warmth to my heart. Merry Christmas, my dear hedgehog !!", "signed": "Meow Meow" },
-            { "greeting": "name,", "message": "Love you", "signed": "From, Santa" },
-            { "greeting": "To name,", "message": "Merry Christmas!", "signed": "Love from, Santa Meow Meow" },
+            { "greeting": "name,", "message": "Love you", "signed": "From, Santa Meow Meow ..." },
+            { "greeting": "To name,", "message": "Merry Christmas!", "signed": "Love from, Santa Meow Meow ..." },
             { "greeting": "Dear name,","message": "Merry Christmas and a Happy New Year!", "signed": "Lot\'s of love, meow meow Christmas" },
             { "greeting": "To my dearest name,", "message": "Merry Christmas, the world's cutest little hedgehog! May your days be merry, your heart light and your holiday filled with everything that brings you happiness with satan meow meow by your side.", "signed": "Yours, Honey 'Meow Meow' Christmas" }
             ];
